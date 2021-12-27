@@ -17,7 +17,7 @@ const ModalOverlay = (props) => {
 
 const portalElement = document.getElementById("ovarlays");
 
-export const Modal = (props) => {
+const Modal = (props) => {
   return (
     <Fragment>
       {ReactDOM.createPortal(
@@ -31,3 +31,5 @@ export const Modal = (props) => {
     </Fragment>
   );
 };
+
+export default Modal;
